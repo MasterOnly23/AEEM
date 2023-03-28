@@ -1,0 +1,242 @@
+<!DOCTYPE html>  
+ <html lang="en">  
+ <head>  
+   <meta charset="UTF-8">  
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">  
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+   <title>Aprende en el Mundo</title>  
+   <link rel="stylesheet" href="./static/css/ecommerce.css">  
+   <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">  
+   <link rel="stylesheet" href="./static/css/loader.css">
+
+  <!--Fav icon-->
+
+<link rel="apple-touch-icon" sizes="180x180" href="./static/img/logo/>
+<link rel="icon" type="image/png" sizes="32x32" href="./static/img/logo/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./static/img/logo/favicon-16x16.png">
+<link rel="manifest" href="./static/img/logo/site.webmanifest">
+
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/dropdowns/">
+  <link rel="stylesheet" href="./static/css/bootstrap.css">
+  <link rel="stylesheet" href="./static/css/testimonios.css">
+
+<!-- fuente -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Euphoria+Script&display=swap" rel="stylesheet">
+
+
+ </head>  
+ <body>  
+
+
+<div id="contenedor-loader">
+    <div id="cargador"></div>
+  </div>
+
+
+   <header>  
+     <div class="logo"><a href="#">Aprende en el Mundo</a> <img src="./static/img/logo/logo-aprende.png" alt="logo"></div>  
+     <div class="menu">  
+       <a href=""><ion-icon name="close" class="close"></ion-icon></a>  
+       <ul>  
+         <li><a href="index.html" class="under">INICIO</a></li>  
+         <li><a href="#" class="under">PLANES DE ESTUDIO</a></li>  
+         <li><a href="contact.html" class="under">CONTACTANOS</a></li>  
+         <li><a href="#" class="under">P&R</a></li>  
+         <li><a href="#" class="under">ACERCA DE NOSOTROS</a></li>
+       </ul>  
+     </div>  
+     <div class="search">  
+       <input type="text" placeholder="Buscar..." id="input">  
+         <ion-icon class="s" name="search"></ion-icon>  
+  
+     </div>  
+     <div class="heading">  
+       <ul>  
+         <li><a href="index.html" class="under">INICIO</a></li>  
+         <li><a href="#" class="under">PLANES DE ESTUDIO</a></li>  
+         <li><a href="contact.html" class="under">CONTACTANOS</a></li>  
+         <li><a href="#" class="under">P&R</a></li>  
+         <li><a href="#" class="under">ACERCA DE NOSOTROS</a></li>  
+       </ul>  
+     </div>  
+     <div class="heading1">  
+       <ion-icon name="menu" class="ham"></ion-icon>  
+     </div>
+     <!-- <div><span id="text-tipo-moneda">Currency:</span><span id="text-moneda"><input type="checkbox" name="ARS" id="ARS" >ARS</span> 
+      <span id="text-moneda"><input type="checkbox" name="ARS" id="USD">USD</span>
+  
+    </div>     -->
+    <div class="btn-group">
+      <button class="btn btn-warning btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Moneda
+      </button>
+      <ul class="dropdown-menu">
+        <li><span id="text-moneda"><input type="radio" name="USD" id="USD">USD</span></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><span id="text-moneda"><input type="radio" name="ARS" id="ARS" >ARS</span> </li>        
+      </ul>
+    </div>
+   </header>  
+
+   
+   <section>  
+     <div class="section">  
+       <div class="section1">  
+         <div class="img-slider">  
+           <a href="#"><img src="./static/img/slider/slider1.jpeg"  
+             alt="" class="img">  </a>
+           <a href="#"><img src="./static/img/slider/slider2.jpeg"  
+             alt="" class="img"> </a> 
+           <a href="#"><img src="./static/img/slider/slider3.jpeg"  
+             alt="" class="img"> </a> 
+           <a href="#"><img src="./static/img/slider/slider4.jpeg"  
+             alt="" class="img"> </a> 
+           <a href="#"><img src="./static/img/slider/slider5.jpeg"  
+             alt="" class="img"> </a> 
+            <a href="#"><img src="./static/img/slider/slider6.jpeg"  
+             alt="" class="img"> </a>
+         </div>  
+       </div>  
+       <div class="section2">  
+         <div class="container">
+          <a href="#">  
+           <div class="items">  
+             <div class="img img1"><img  
+                 src="./static/img/productos/uba.jpg"  
+                 alt=""></div>  
+             <div class="name">Lorem ipsum dolor.</div>
+             <div class="price" ><span id="moneda">USD:</span>  <span class="precio" id="precio">1300</span></div>  
+             <div class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quis?</div>
+            </div>
+          </a>
+
+            <a href="#">
+            <div class="items">  
+              <div class="img img1"><img  
+                  src="./static/img/productos/uba2.jpg"  
+                  alt=""></div>  
+              <div class="name">Lorem ipsum dolor</div>  
+              <div class="price" ><span id="moneda">USD:</span>  <span class="precio" id="precio">800</span></div>   
+              <div class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quis?</div>
+             </div>
+            </a>
+
+             <a href="#">
+             <div class="items">  
+              <div class="img img1"><img  
+                  src="./static/img/productos/rusia.jpg"  
+                  alt=""></div>  
+              <div class="name">Lorem ipsum dolor</div>  
+              <div class="price" ><span id="moneda">USD:</span>  <span class="precio" id="precio">2000</span></div>  
+              <div class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quis?</div>
+             </div>
+            </a>
+
+          </div>
+        </div>
+
+
+        <div class="testimonios">
+        <div class="contenedor-testimonio">
+
+          <div class="titulo-testimonio">
+            <div class="titulo-testimonio1"><img src="./static/img/logo/logo-aprende.png" alt="logo"></div>
+            <div class="titulo-testimonio1"><h3>Testimonios</h3></div>
+            <div class="titulo-testimonio2"><h3>De Nuestra Familia</h3></div>
+          </div>
+
+          <div class="fotos-testimonios-slide">
+          <div class="fotos-testimonios"> 
+            
+              <img src="./static/img/slider/slider1.jpeg"  
+                alt="" class="img">
+              <img src="./static/img/slider/slider2.jpeg"  
+                alt="" class="img">
+              <img src="./static/img/slider/slider3.jpeg"  
+                alt="" class="img"> 
+              </div>
+            <!-- <img src="https://static.wixstatic.com/media/41dfb0_d3333f2d17ad4d9a8f5f0483bef8ee2a~mv2.jpeg/v1/fill/w_471,h_605,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/41dfb0_d3333f2d17ad4d9a8f5f0483bef8ee2a~mv2.jpeg" alt=""> -->
+          </div>
+
+
+        </div>
+      </div>
+      
+      
+      </div>
+  </section>  
+  
+
+
+
+   <footer>  
+     <div class="footer0">  
+       <h1>Aprende en el Mundo</h1>
+     </div>
+     <div class="footer1 ">  
+       Conecta con nosotros<div class="social-media">  
+         <a href="#">  
+           <ion-icon name="logo-facebook"></ion-icon>  
+         </a>  
+         <a href="#">  
+           <ion-icon name="logo-linkedin"></ion-icon>  
+         </a>  
+         <a href="#">  
+           <ion-icon name="logo-youtube"></ion-icon>  
+         </a>  
+         <a href="#">  
+           <ion-icon name="logo-instagram"></ion-icon>  
+         </a>  
+         <a href="#">  
+           <ion-icon name="logo-twitter"></ion-icon>  
+         </a>  
+       </div>  
+     </div>  
+     <div class="footer2">  
+       <div class="product">  
+         <div class="heading">Paquetes</div>  
+         <div class="div">Conoce Nuestros Paquetes</div>  
+         <div class="div">Advertencias</div>  
+         <div class="div">Precios</div>  
+         <!-- <div class="div">Product Buisness</div>   -->
+       </div>  
+       <div class="services">  
+         <div class="heading">Servicios</div>  
+         <div class="div">Que se Incluye en Nuestros Paquetes</div>  
+         <div class="div">Politica de devolucion</div>  
+         <!-- <div class="div">Campaña de Marketing</div>   -->
+         <div class="div">Otros</div>  
+       </div>  
+       <div class="Company">  
+         <div class="heading">Compañia</div>  
+         <div class="div">Universidades que Ofrecemos</div>  
+         <div class="div">Carreras</div>  
+         <!-- <div class="div">Affiliate Marketing</div>   -->
+         <div class="div">Asistencia</div>  
+       </div>  
+       <div class="Get Help">  
+         <div class="heading">Ayuda</div>  
+         <div class="div">Centro de Ayuda</div>  
+         <div class="div">Polita de Privacidad</div>  
+         <div class="div">Terminos y Condiciones</div>  
+         <div class="div">Inicio de Sesion</div>  
+       </div>  
+     </div>  
+     <div class="footer3">Copyright © <h4>Aprende en el Mundo</h4> 2023</div>  
+   </footer>  
+   <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>  
+   <script src="./static/js/ecommerce.js"></script> 
+   
+
+   <script src="./static/js/api_cambio.js"></script>
+   <script src="./static/js/slide-testimonio.js"></script>
+
+
+   <script src="./static/js/loader.js"></script>
+   <script src="./static/js/bootstrap.bundle.min.js"></script>
+  
+ </body>  
+ </html> 
