@@ -234,6 +234,7 @@
     .fotos-testimonios{
       width: 540px;
     }
+  }
 
     @keyframes slide-testimonio {
       0% {
@@ -249,6 +250,3 @@
         transform: translateX(0);
       }
     }
-
-
-  }
