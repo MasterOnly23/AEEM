@@ -99,7 +99,7 @@
   .fotos-testimonios {
     display: flex;
     width: 1350px; /* 3 images of 450px wide */
-    animation: slide-testimonio 12s infinite;
+    animation: slide-testimonio 18s infinite;
 
   }
   
