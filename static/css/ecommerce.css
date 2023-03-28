@@ -277,6 +277,15 @@ align-items: center;
       transition-duration:0.8s;  
       border-radius:12px;  
     }  
+
+    .ver-paquete{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 2rem;
+    }
+
+
   footer{  
   display:flex;  
   flex-direction: column;  
